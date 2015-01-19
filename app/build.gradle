@@ -28,16 +28,12 @@ dependencies {
     compile "com.splunk.mint:mint:4.0.8"
     compile project(':pulltorefresh')
 
-    compile files('E:/AS/150115_ThislistBetav3/ThislistBetav3/libs/google-api-services-youtube-v3-rev124-1.19.0.jar')
-
-    compile files('E:/AS/150115_ThislistBetav3/ThislistBetav3/libs/jackson-core-asl-1.9.11.jar')
-    compile files('E:/AS/150115_ThislistBetav3/ThislistBetav3/libs/jsr305-1.3.9.jar')
-    compile files('E:/AS/150115_ThislistBetav3/ThislistBetav3/libs/protobuf-java-2.4.1.jar')
-    compile files('E:/AS/150115_ThislistBetav3/ThislistBetav3/libs/YouTubeAndroidPlayerApi.jar')
-    compile files('E:/AS/150115_ThislistBetav3/ThislistBetav3/libs/dom4j-2.0.0-ALPHA-2.jar')
-
-
-    compile files('E:/AS/150115_ThislistBetav3/ThislistBetav3/libs/android-support-v4.jar')
+    compile files('libs/YouTubeAndroidPlayerApi.jar')
+    compile files('libs/dom4j-2.0.0-ALPHA-2.jar')
+    compile 'com.google.apis:google-api-services-youtube:v3-rev125-1.19.1'
+    compile 'org.codehaus.jackson:jackson-core-asl:1.9.13'
+    compile 'com.google.code.findbugs:jsr305:1.3.9'
+    compile 'com.google.protobuf:protobuf-java:2.4.1'
     compile 'com.google.api-client:google-api-client:1.19.0'
     compile 'com.google.api-client:google-api-client-android:1.19.0'
     compile 'com.google.http-client:google-http-client:1.19.0'
